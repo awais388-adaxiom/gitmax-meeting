@@ -212,7 +212,7 @@ export default function Component() {
         companies.map((c) => (
           <SelectItem
             key={c.id}
-            value={c.name}
+            value={c.name}//  send company nam
             title={c.name} // hover pe full name dikhata hai
             className="flex items-center gap-2 overflow-hidden"
           >
